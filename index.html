@@ -18,13 +18,14 @@
       
     <main class="content">
     <article>DISCUSS YOUR QUOTE TYPES WITH US<img src="unnamed.png"  width="250px" height="200px"  >
-        <form type"POST">
-            <input type="email" placeholder="abc@carrier.com">
-            <button type="submit">Submit</button>
+        <form type ="POST" id="form" onsubmit="validateEmail(event)">
+            <input type="email"  id="email"placeholder="abc@carrier.com">
+            <button type="submit" id="submit">Submit</button>
         </form></article>
     
 </main>
     
   	<footer>The website which we referred to is <a href="https://quackit.com/">quackit</a></footer>
   </div>
+  <script src="validation.js"></script>
 </body>
